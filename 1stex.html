@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <title>Balut FastFood - My Favorite Fast Foods</title>
+    <meta
+      name="description"
+      content="Discover my favorite fast foods including brownie, burger, fried chicken, and cappuccino assassino. A delicious journey through my favorite treats."
+    />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffb6c1; /* Pink background */
+        color: #333;
+        line-height: 1.6;
+      }
+
+      header {
+        background-color: #d81b60; /* Darker pink for header */
+        color: white;
+        text-align: center;
+        padding: 2rem 1rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin: 0;
+      }
+
+      .tagline {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+      }
+
+      main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+      }
+
+      section {
+        margin-bottom: 3rem;
+      }
+
+      .intro {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+
+      h2 {
+        color: #d81b60;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .food-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+      }
+
+      .food-card {
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .food-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .food-card img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        display: block;
+      }
+
+      .food-info {
+        padding: 1.5rem;
+      }
+
+      .food-name {
+        color: #d81b60;
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+      }
+
+      .special-mention {
+        background-color: white;
+        border-radius: 10px;
+        padding: 2rem;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        margin-top: 3rem;
+      }
+
+      .special-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+
+      @media (min-width: 768px) {
+        .special-content {
+          flex-direction: row;
+          align-items: center;
+        }
+
+        .special-image {
+          flex: 1;
+        }
+
+        .special-text {
+          flex: 2;
+        }
+      }
+
+      .special-image img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      footer {
+        background-color: #d81b60;
+        color: white;
+        text-align: center;
+        padding: 1.5rem;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Balut FastFood</h1>
+      <p class="tagline">Delicious Treats for Everyone</p>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h2>My Favorite Fast Foods</h2>
+        <p>
+          Welcome to my page about my favorite fast foods! I love indulging in
+          these treats occasionally. Here are some of my absolute favorites that
+          I enjoy.
+        </p>
+      </section>
+
+      <section>
+        <div class="food-grid">
+          <!-- Brownie -->
+          <div class="food-card">
+            <img
+              src="https://images.unsplash.com/photo-1564355808539-22fda35bed7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80"
+              alt="Delicious chocolate brownie with ice cream"
+            />
+            <div class="food-info">
+              <h3 class="food-name">Brownie</h3>
+              <p>
+                Rich, fudgy chocolate brownie that melts in your mouth. Perfect
+                with a scoop of ice cream!
+              </p>
+            </div>
+          </div>
+
+          <!-- Burger -->
+          <div class="food-card">
+            <img
+              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80"
+              alt="Juicy burger with cheese and toppings"
+            />
+            <div class="food-info">
+              <h3 class="food-name">Burger</h3>
+              <p>
+                Juicy beef patty with melted cheese, fresh veggies, and special
+                sauce between soft buns.
+              </p>
+            </div>
+          </div>
+
+          <!-- Fried Chicken -->
+          <div class="food-card">
+            <img
+              src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80"
+              alt="Crispy fried chicken pieces"
+            />
+            <div class="food-info">
+              <h3 class="food-name">Fried Chicken</h3>
+              <p>
+                Crispy on the outside, juicy on the inside - perfectly seasoned
+                fried chicken.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="special-mention">
+        <h2>Special Mention: Cappuccino Assassino</h2>
+        <div class="special-content">
+          <div class="special-image">
+            <img
+              src="https://images.unsplash.com/photo-1534778101976-62847782c213?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80"
+              alt="Cappuccino with artistic foam design"
+            />
+          </div>
+          <div class="special-text">
+            <p>
+              My favorite coffee drink is the intense Cappuccino Assassino! It's
+              a bold, strong cappuccino with rich espresso, velvety foam, and a
+              hint of mystery. Perfect for giving me an energy boost any time of
+              day.
+            </p>
+            <p>
+              The combination of premium coffee beans and expert preparation
+              makes this a killer drink that I can't resist!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>I eat fast food moderately, so it should be fine</p>
+      <p>
+        ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Balut FastFood
+      </p>
+    </footer>
+  </body>
+</html>
